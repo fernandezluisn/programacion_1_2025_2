@@ -40,6 +40,9 @@ def calcular_interseccion(conjunto_1: list,
     lista_retorno = recortar_lista(interseccion)            
     return lista_retorno
 
+#n1 = 5, n2 = 4, tam_int = 3
+#n1 * n2 + tamaño_intersección + n1 * tamaño_intersección + n2 * tamaño_intersección=20+3+15+12=50 iteraciones
+#n2 + n1 * n2= 4 + 5 * 4 = 24
 def calcular_union(conjunto_1: list,
                    conjunto_2: list)-> list:
     
@@ -88,6 +91,7 @@ def calcular_union(conjunto_1: list,
 
     return lista_retorno
 
+#n1 + n1 * n2
 def calcular_union_optimizado(conjunto_1: list,
                               conjunto_2: list)->list:
     
