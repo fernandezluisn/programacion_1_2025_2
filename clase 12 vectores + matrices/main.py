@@ -24,7 +24,13 @@ while ejecutar:
     print("4- recorrer diagonal")
     print("9- finalizar")
 
-    tarea = int(input("Ingrese número de tarea: "))
+    #ingresa input
+    tarea = input("Ingrese número de tarea: ")
+
+    #validación
+
+    #casteo
+    tarea = int(tarea)
 
     match tarea:
         case 1:
