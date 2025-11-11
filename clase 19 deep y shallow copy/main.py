@@ -19,14 +19,20 @@ arquitectura = copy.copy(progra_1)
 
 print(f"id arquitectura = {id(arquitectura)}")
 
+print("Hacemos un cambio en la edad de pedro en la lista de matemática")
 matematica[0][2] = 99
 
 arquitectura.append(["José", "Cano", 25])
 
 print(f"arquitectura: {arquitectura}")
 print(f"matematica: {matematica}")
+print(f"progra_1: {progra_1}")
+
+print("")
+print("")
 
 #Hacer una copia profunda
+print("DEEP COPY")
 
 ingles = copy.deepcopy(arquitectura)
 
