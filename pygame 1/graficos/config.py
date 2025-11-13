@@ -1,0 +1,7 @@
+ANCHO = 800
+ALTO = 800
+
+VERDE = (0, 255, 0)
+MOSTAZA = (200, 200, 0)
+BLANCO = (255, 255, 255)
+NEGRO = (0, 0, 0)
